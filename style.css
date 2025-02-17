@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f5dc; /* Cream Background */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Login Box - Positioned to Left */
+.login-box {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    background: brown;
+    color: white;
+    padding: 20px;
+}
+
+/* Menu List */
+.menu {
+    margin: 20px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cart */
+.cart {
+    display: none;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Payment Section */
+.payment {
+    display: none;
+    padding: 20px;
+}
+.payment img {
+    width: 150px;
+}

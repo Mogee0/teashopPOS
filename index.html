@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Order - Juicy Land</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Login Box (Left Side) -->
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Enter Email">
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Shop Name -->
+    <header>
+        <h1>Juicy Land</h1>
+        <p>Bengaluru Bypass Road, Chettipet</p>
+    </header>
+
+    <!-- Menu Section -->
+    <div class="menu">
+        <h2>Menu</h2>
+        <ul id="product-list"></ul>
+    </div>
+
+    <!-- Cart Section (Hidden Initially) -->
+    <div id="cart" class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: ₹0</p>
+        <button onclick="proceedToPayment()">Proceed to Payment</button>
+    </div>
+
+    <!-- Payment Section -->
+    <div id="payment-section" class="payment">
+        <h2>Scan to Pay</h2>
+        <img src="your-gpay-qr.png" alt="GPay QR Code">
+        <h3>Or Pay via UPI</h3>
+        <button onclick="payWithUPI()">Pay via UPI</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
